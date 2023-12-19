@@ -1,0 +1,234 @@
+@import './variables.css';
+@import './top-bar.css';
+@import './navbar.css';
+@import './defult.css';
+@import './footer.css';
+@import './course-box.css';
+@import './helper.css';
+@import './breadcrumb.css';
+@import './sidebarcourse.css';
+
+
+
+a{
+    text-decoration: none;
+    font-size: 1.4rem;
+}
+
+
+
+.course-info__courses-title{
+    position: relative;
+}
+
+
+.course-info__courses-title::before{
+    content: "";
+    position: absolute;
+    width: 22px;
+    height: 39px;
+    background-color: var(--primary-color);
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 12px;
+    right: -24px;
+    transform: skewX(-10px);
+    margin-right: 47px;
+    top: -22px;
+}
+
+
+
+.sidbar-articels__list{
+    margin-top: 2rem;
+}
+
+
+.sidebar-article__item{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #eeeeee;
+}
+
+
+.sidebar-article__item:hover{
+    padding-right: 2rem;
+    background-color: #f8f9fa;
+}
+
+
+
+.article{
+    padding: 2.4rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 5px 30px rgba(70, 72, 77, 0.08);
+
+}
+
+
+.article-title{
+    font-size: 2.6rem;
+    font-weight: bold;
+    color: var(--dark-color);
+    border-bottom: 2px solid #f3f3f3;
+    padding-bottom: 1rem;
+}
+
+
+.article__header{
+    display: flex;
+    align-items: center;
+    padding-top: 1rem;
+}
+
+
+.article-header__item{
+
+    margin-left: 2rem;
+
+}
+
+
+.article-header__icon{
+    font-size: 1.7rem;
+    color: #b1a9a9;
+}
+
+
+.article-header__text{
+    font-size: 1.2rem;
+    color: rgb(9, 168, 9);
+}
+
+
+
+.article__banner{
+    margin-top: 4rem;
+}
+
+
+.article__score{
+    display: flex;
+    align-items: center;
+    margin: 2rem 0;
+}
+
+
+
+.article__score-icon{
+    margin-left: 0.4rem;
+}
+
+
+
+.article__score-text{
+    margin-right: 2rem;
+    font-size: 1.7rem;
+    color: #7d7d7d;
+}
+
+
+.article-read__link{
+    line-height: 2;
+    font-size: 1.5rem;
+    color: #1e83f0;
+}
+
+.article-read__link:hover{
+    text-decoration: underline;
+}
+
+
+.article__secondary-banner{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.paragraph{
+    font-size: 1.5rem;
+    line-height: 3rem;
+    color: #7d7e7f;
+}
+
+.article-section__title{
+    font-size: 2.4rem;
+    color: #008c25;
+    font-weight: bold;
+    line-height: 1.2rem;
+}
+
+
+
+.article-section__text{
+    margin: 2rem 0;
+}
+
+
+.article-section-media{
+    display: flex;
+    align-items: center;
+}
+
+
+.article-section_img{
+    display: block;
+    margin: 0 auto;
+}
+
+
+.article-socilal-media__link{
+    display: flex;
+    align-items: center;
+    margin: 00.5rem;
+}
+
+
+.comments{
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.comments__title{
+    color: var(--dark-color);
+    font-size: 1.2rem;
+}
+
+
+.comments__text{
+    margin: 1.5rem 0;
+    font-size: 1.5rem;
+}
+
+
+.comments-content{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.comments__content-title{
+    font-size: 1.5rem;
+    color: #6c757d;
+}
+
+
+.comments__content-textarea{
+    height: 18.5rem;
+    border-radius: 0.5rem;
+    border: 1px solid #dcdcdc;
+    box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.06);
+}
+
+
+
+.comments__button{
+    margin-top: 2rem;
+    max-width: 15rem;
+    padding: 0.8rem 1.7rem;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border: none;
+    margin-bottom: 10px;
+}
